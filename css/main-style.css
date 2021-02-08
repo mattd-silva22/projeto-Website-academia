@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+/* rgb(29, 33, 13); */
+body {
+    height: 1000px;
+    background-color: rgb(15, 15, 27);
+}
+
+/* style header */
+
+header {
+    background-color: rgb(12, 12, 14);
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+#logo {
+    color:rgb(206, 201, 194);
+    line-height: 10vh;
+    
+}
+
+#nav-top {
+    color: white;
+    line-height: 10vh;
+}
+
+#nav-top ul {
+    margin-right: 3vw;
+}
+
+#nav-top li {
+    display: inline;
+    margin: 10px;
+}
+
+#nav-top a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    font-size: 1.2em;
+    font-weight: 450
+    
+}
+
+#nav-top a:hover {
+    color: rgb(204, 24, 54);
+}
+
+/* teste img */
+
+#img-teste {
+    height: 90vh;
+    width: 100%;
+    background-image: url("../img/img-4.jpg");
+    background-position: center ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#caixa-1 {
+    background-color: blue;
+    height: 50vh;
+    width: 20vw;
+}
+
+/* #caixa-2 {
+    background-color:red;
+    height: 50vh;
+    width: 20vw;
+} */
