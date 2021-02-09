@@ -1,15 +1,25 @@
+/* geral */
 * {
     margin: 0px;
     padding: 0px;
     font-family: Helvetica, sans-serif;
 }
 
-/* rgb(29, 33, 13); */
 body {
     height: 1000px;
     background-color: rgb(15, 15, 27);
 }
 
+/* fonts */
+
+@font-face {
+    font-family: "lexend";
+    src: url("../LexendMega-Regular.ttf");
+    }
+
+    /* cores salvas */
+    /* us army green rgb(29, 33, 13); */ 
+                   
 /* style header */
 
 header {
@@ -61,19 +71,29 @@ header {
     background-position: center ;
     background-attachment: fixed;
     background-repeat: no-repeat;
-
-    display: flex;
-    justify-content: space-between;
 }
 
-#caixa-1 {
-    background-color: blue;
-    height: 50vh;
-    width: 20vw;
+#caixa-texto-img {
+    color: rgb(255, 255, 255);
+    font-size: 1.4em ;
+    text-align: center;
+    height: 40vh;
+    width: 60vw;
+    float: right;
+    padding: 5px;
+    margin-top: 27vh;
+    margin-right: 1vw;
+    background-color: rgba(15, 15, 27, 0.8);
+    border: 5px solid rgba(25, 25, 37, 0.8) ;
+    border-radius: 65px;
 }
 
-/* #caixa-2 {
-    background-color:red;
-    height: 50vh;
-    width: 20vw;
-} */
+#caixa-texto-img h1 {
+    margin: 20px;
+    font-family: "lexend",  sans-serif;
+    
+}
+
+
+    
+
