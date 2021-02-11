@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 1000px;
+
     background-color: rgb(15, 15, 27);
 }
 
@@ -73,6 +73,15 @@ header {
     background-repeat: no-repeat;
 }
 
+#img-teste-2 {
+    height: 90vh;
+    width: 100%;
+    background-image: url("../img/img-3.jpg");
+    background-position: center ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 #caixa-texto-img {
     color: rgb(255, 255, 255);
     font-size: 1.4em ;
@@ -94,6 +103,38 @@ header {
     
 }
 
+/* area de planos */
 
+#titulo-plano {
+    text-align: center;
+    margin: 25px;
+    color: white;
+    font-family: "lexend",  sans-serif;
+}
+
+#p-planos {
+    text-align: center;
+    font-family: "lexend",  sans-serif;
+    color: white;
+}
+#area-planos {
+    display: flex;
+    justify-content: space-around;
+}
+
+#caixa-plano-1 {
+    background-color: red;
+    height: 70vh;
+    width: 30vw;
+    margin: 25px;
+    text-align: center;
+}
     
-
+#caixa-plano-2 {
+    background-color: blue;
+    height: 70vh;
+    width: 30vw;
+    margin: 25px;
+    text-align: center;
+}
+    
